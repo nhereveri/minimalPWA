@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5.0">
+	<meta name="description" content="Progressive Web Apps mínimo para pruebas de servidor.">
+	<title>minimalPWA</title>
+	<link rel="manifest" href="manifest.json">
+	<script async src="https://unpkg.com/pwacompat" crossorigin="anonymous"></script>
+	<link rel="icon" type="image/png" href="gauge@128.png" sizes="128x128">
+	<link rel="apple-touch-icon" type="image/png" href="gauge@192.png" sizes="192x192">
+	<link rel="stylesheet" async type="text/css" href="non-critical.css" media="none" onload="if(media!='all')media='all'">
+  <noscript>
+    <link rel="stylesheet" type="text/css" href="non-critical.css">
+  </noscript>
+  <link rel="stylesheet" type="text/css" href="critical.css">
+</head>
+<body>
+	<div class="wrapper">
+    <img src="gauge@256.png" alt="My App Icon" width="128" height="128">
+    <p>Candy marshmallow dragée gummi bears chocolate bar bear claw lemon drops. Toffee macaroon liquorice tiramisu topping pudding. Halvah cupcake brownie cake topping. Dragée caramels jelly beans muffin sweet roll carrot cake. Cake gummi bears chocolate bar powder toffee powder. Tiramisu tart sweet carrot cake tootsie roll chupa chups sweet roll powder. Ice cream cake carrot cake. Jujubes chocolate sweet roll pastry halvah cheesecake. Toffee brownie pastry wafer.</p>
+    <p>Bonbon lemon drops sesame snaps caramels. Caramels bonbon candy danish cotton candy. Jelly sesame snaps liquorice. Jelly beans lemon drops muffin. Ice cream jujubes jujubes. Bear claw gummi bears cookie soufflé.</p>
+  </div>
+  <script type="text/javascript">
+if ('serviceWorker' in navigator) {
+  navigator.serviceWorker.register('sw.js');
+}
+  </script>
+</body>
+</html>

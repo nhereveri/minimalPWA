@@ -1,0 +1,36 @@
+{
+  "short_name": "minimalPWA",
+  "name": "Minimal PWA sandbox",
+  "description": "Progressive Web Apps mínimo para pruebas de servidor.",
+  "icons": [
+    {
+      "src": "gauge@512.png",
+      "type": "image/png",
+      "sizes": "512x512",
+      "purpose": "any"
+    },
+    {
+      "src": "gauge@256.png",
+      "type": "image/png",
+      "sizes": "256x256",
+      "purpose": "any"
+    },
+    {
+      "src": "gauge@128.png",
+      "type": "image/png",
+      "sizes": "128x128",
+      "purpose": "any"
+    },
+    {
+      "src": "gauge@maskable.png",
+      "type": "image/png",
+      "sizes": "192x192",
+      "purpose": "maskable"
+    }
+  ],
+  "start_url": "index.html",
+  "background_color": "#FFFFFF",
+  "theme_color": "#009688",
+  "display": "fullscreen",
+  "orientation": "portrait"
+}

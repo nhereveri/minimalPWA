@@ -1,0 +1,31 @@
+body {
+    background: #FFFFFF;
+    min-height: 100vh;
+    position: relative;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrapper {
+    max-width: 500px;
+    margin: auto
+}
+
+img {
+    width: 128px;
+    height: auto;
+    margin: 1rem auto;
+    display: block
+}
+
+p {
+    text-align: justify;
+    text-indent: 3rem;
+    line-height: 1.2;
+}
+
+p+p {
+    margin-top: 1rem
+}
